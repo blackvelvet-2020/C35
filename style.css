@@ -1,16 +1,12 @@
 * {
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-
-body{
-	margin: auto;
+body {
 	font-family: 'Roboto', sans-serif;
 }
-.header-left img{
-	background-size: cover;
-}
-
 
 .header-right a {
 	text-decoration: none;
@@ -24,8 +20,7 @@ body{
 header {
 	height: 70px;
 	width: 100%;
-	background-color: 		#FFFACD;
-	opacity: 0.9;
+	background-color: rgba(226, 190, 69, 0.9);
 	position: fixed;
 	margin: auto;
 	top: 0;
@@ -39,24 +34,13 @@ header {
 }
 
 .header-left img {
-	width: 75%;
-	height: 75%;
+	width: 70%;
+	height: 70%;
 }
 
 .logo {
-	width: 200px;
 	float: left;
 	margin-top: 10px;
-}
-
-.name {
-	float: right;
-	margin-top: 15px
-}
-
-.name h1 {
-	font-size: 30px;
-	letter-spacing: 3px;
 }
 
 .header-right {
@@ -81,78 +65,72 @@ header {
 
 /** end header */
 
-/** content */
 .container {
-	max-width: fit-content;
+	max-width: 1170px;
 	padding: 0 15px;
 	margin: 0 auto;
 }
 
-
-
-.toptop {
-	/* padding: 200px 100px; */
-	height: 600px;
-	background-image: url('gambar/dor.jpg');
-	background-size: cover;
-	/* margin-bottom: 10px; */
-	margin-top: 70px
-	
-	
-}
-
 .top-wrapper {
-	box-sizing: border-box;
-	background-color: #ece5ce;
+	padding: 180px 0 100px 0;
+	background-image: url('gambar/dor.jpg');
+	height: 600px;
+	background-size: cover;
+	color: white;
+	text-align: center
 }
-
 
 .container h1 {
+	padding: 12px 0;
+	background-color: rgba(255, 255, 255, 0.9);
 	text-align: center;
 	color:black;
-	font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	
-	
 }
+
+.container .cek {
+	margin-top: 10px;
+}
+
 .container h2 {
 	text-align: center;
+	padding: 12px 0;
 	color:white;
-	background: linear-gradient(to right,#00BFFF, #87CEEB, #1E90FF);
-	border-radius: 10px solid #dee7ec;
+	background-color: rgba(34, 49, 52, 0.9);
+	border-radius: 4px;
 	width: 230px;
 	margin:auto;
-	font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-	
-	
 }
 
-
-.contents h3{
-	text-align: center;
-	background: none;
-	color: rgb(15, 94, 199);
-	margin: 30px 10px;
-	text-align: left;
-	margin-left: 40px;
-	width:max-content;
-	padding: 10px;
-	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+.heading {
+  padding-top: 50px;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #FFCE00;
+  margin-bottom: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
 }
 
-.contents{
-	width: 1400px;
+.heading h3 {
+  font-weight: normal;
+  font-size: 25px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.contents {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.sub-contents{
 	margin-top: 10px;
 	display: flex;
 	flex-wrap: wrap;
 	/* height: 800px */
 }
-.section-title {
-	/* border-bottom: 2px solid white; */
-	font-size: 28px;
-	padding-bottom: 15px;
-	margin-bottom: 50px;
-  }
-  
 
 .contents-item{
 	/* display: flex;
@@ -160,6 +138,7 @@ header {
 	float: left;
 	margin-left: 20px;
 	width: 30%;
+	margin-bottom: 20px;
 }
 
 .contents-item img {
@@ -198,12 +177,11 @@ header {
 }
 /** menu icon */
 .menu-icon {
-  	color: black;
-  	float: right;
-  	font-size: 25px;
-  	padding: 21px 0;
-  	display: none;
-  
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
 }
 
 .contents-item input{
@@ -219,6 +197,7 @@ header {
 .contact-form{
 	text-align: center;
 }
+
 input{
 	width:200px;
 	margin-top:10px;
@@ -317,12 +296,14 @@ input{
 	color: #00BFFF;
 	outline: 0;
   }
- 
+
+/* footer */
 
 .footer {
 	background-color: #f1b307;
 	color: #fff;
 	height: 200px;
+	width: 100%;
 	padding: 40px 40px;
 	
 }
