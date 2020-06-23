@@ -1,0 +1,25 @@
+
+@media (max-width: 1000px) {
+	.contents-item {
+	  width: 32%;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: space-between; 
+	  
+	}
+
+  }
+  
+  /* Untuk Smartphone */
+  @media (max-width: 670px) {
+	.contents-item {
+	  width: 50%;
+	  display: flex;
+	  flex-direction: column;
+	  justify-content: space-between;
+	}
+
+	.header-right {
+		display: none;
+	}
+  }
